@@ -1,0 +1,56 @@
+body
+{
+	background:#ccf2ff;
+	
+  	background-size: cover;
+}
+
+#bar
+{
+
+	display: none;
+	max-width:600px;
+ 	margin:-5vw auto 0px;
+ 	margin-top: 3vw;
+	font-size: 30px;
+	color:#008000; 
+	text-shadow: 0 0 1px #ffff00;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Sofia';
+}
+#start{
+	margin-left:48%;
+}
+#container{
+	max-width:600px;
+ 	margin:-5vw auto 0px;
+ 	display: none;
+}
+
+.tile{
+	margin:5px;
+	float:left;
+	border:2px solid black;
+	height:100px;
+	width:100px;
+	transition:background-image 0.5s;
+	transition:opacity 0.5s;
+	-webkit-transition:background-image 0.5s;
+	-webkit-transition:opacity 0.5s;
+	border-radius:20px;
+}
+h1, h2{
+	text-align: center;
+}
+
+h1{
+	font-size:35px;
+	text-decoration: underline;
+	color:#8600b3;
+	margin-bottom: 3vw;
+}
+h2
+{
+	color: #006622;
+}
